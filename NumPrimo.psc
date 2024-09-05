@@ -2,7 +2,7 @@ Algoritmo NumPrimo
 	
 	Definir n, num Como Entero;
 	Definir  ident Como Logico;
-	Escribir "Ingrese n número";
+	Escribir "Ingrese n n mero";
 	Leer n;
 	ident <- Verdadero;
 
@@ -28,7 +28,7 @@ Algoritmo NumPrimo
 	Si ident = Verdadero Entonces
 		Escribir "Es un numero primo";
 	Sino 
-		Escribir "No es un númro primo";
+		Escribir "No es un n mro primo";
 	FinSi
 	
 FinAlgoritmo
