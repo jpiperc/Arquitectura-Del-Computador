@@ -1,0 +1,19 @@
+Algoritmo NUMERO_PRIMO
+
+	Escribir " Por favor digite un numero"
+	Leer n
+	contador <-0
+	
+	Para i<-1 hasta n Hacer
+		si n %i=0 Entonces
+			contador<- contador+1
+		FinSi
+	FinPara
+	
+	si contador =2 entonces 
+		Escribir n," Si es un numero primo"
+	SiNo
+		Escribir n," No es un numero primo"
+	FinSi
+
+FinAlgoritmo
